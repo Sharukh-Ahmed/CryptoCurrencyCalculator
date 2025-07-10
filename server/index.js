@@ -10,6 +10,7 @@ const app = express()
 app.use(cors({origin: 'http://localhost:5173'}))
 app.use(express.json())
 
+app.get('/', (req, res)=> res.send("API is Working"));
 app.use('/api', coinRoutes)
 
 mongoose.connect(process.env.MONGO_URI)

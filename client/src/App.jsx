@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Dashboard from '../pages/dashboard'
-import CoinDetail from '../pages/coinDetail'
+import Dashboard from './pages/Dashboard.jsx'
+import CoinDetail from './pages/CoinDetail.jsx'
 import LandingHero from './components/LandingHero'
 import Layout from './components/Layout'
 

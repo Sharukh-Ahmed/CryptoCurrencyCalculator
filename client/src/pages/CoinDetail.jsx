@@ -1,6 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import CoinChart from '../src/components/coinChart.jsx'
+import CoinChart from '../components/CoinChart.jsx'
 
 const CoinDetail = () => {
   const { coinId } = useParams()
