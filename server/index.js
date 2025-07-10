@@ -9,7 +9,7 @@ dotenv.config()
 const app = express()
 
 const allowedOrigins = ['https://crypto-currency-calculator-nine.vercel.app','http://localhost:5173']
-app.use(cors({origin: 'http://localhost:5173'}))
+app.use(cors({origin: allowedOrigins}))
 app.use(express.json())
 
 app.get('/', (req, res)=> res.send("API is Working"));
