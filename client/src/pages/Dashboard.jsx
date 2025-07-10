@@ -46,15 +46,6 @@ const Dashboard = () => {
         Live Crypto Dashboard
       </motion.h1>
 
-      <motion.p
-        initial={{ opacity: 0, y: 10 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.4 }}
-        className="text-center mt-4 text-gray-300 max-w-xl mx-auto"
-      >
-        Updated every 30 minutes • Search, sort & explore the top 10 cryptocurrencies
-      </motion.p>
-
       <motion.div
         initial={{ opacity: 0, y: -10 }}
         animate={{ opacity: 1, y: 0 }}
@@ -68,6 +59,15 @@ const Dashboard = () => {
         </Link>
 
       </motion.div>
+
+      <motion.p
+        initial={{ opacity: 0, y: 10 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.4 }}
+        className="text-center mt-4 text-gray-300 max-w-xl mx-auto"
+      >
+        Updated every 30 minutes • Search, sort & explore the top 10 cryptocurrencies
+      </motion.p>
 
 
       <motion.div
